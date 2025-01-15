@@ -274,7 +274,7 @@ dialog::backdrop {
     padding-inline: 0.625rem;
   }
 
-  .card {
+  .card-main {
     margin-block-end: 3.125rem;
   }
 
@@ -288,5 +288,10 @@ dialog::backdrop {
   .image {
     width: 28px;
     height: 28px;
+  }
+
+  .dialog-window {
+    grid-template-columns: min-content 12.8rem;
+    grid-template-rows: 1fr 0.85fr;
   }
 }
