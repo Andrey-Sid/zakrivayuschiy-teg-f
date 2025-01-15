@@ -291,7 +291,11 @@ dialog::backdrop {
   }
 
   .dialog-window {
-    grid-template-columns: min-content 12.8rem;
-    grid-template-rows: 1fr 0.85fr;
+    grid-template-columns: min-content 15.8rem;
+    grid-template-rows: 1fr 1.7fr;
+  }
+
+  .window-button {
+    margin-block-start: 2.1rem;
   }
 }
