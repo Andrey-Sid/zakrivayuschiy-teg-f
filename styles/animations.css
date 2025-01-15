@@ -107,7 +107,7 @@
   height: 100%;
   color: var(--bg-color);
   background-color: var(--bg-color);
-  transition: transform 0.5s ease; 
+  transition: transform 0.5s ease;
   transform: translateX(-100%);
   mix-blend-mode: difference;
 }
