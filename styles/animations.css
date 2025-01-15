@@ -41,25 +41,25 @@
 }
 
 .like-icon:active .core {
-  fill: var(--color-sparks); 
+  fill: var(--color-sparks);
   transition: fill 0.3s linear;
 }
 
 .like-icon:active .main-body {
-  fill: var(--color-sparks); 
+  fill: var(--color-sparks);
   transition: fill 0.3s linear;
-  transition-delay: 0.05s; 
+  transition-delay: 0.05s;
 }
 
 .like-icon.is-liked .core {
-  fill: var(--color-sparks); 
+  fill: var(--color-sparks);
   transition: fill 0.3s linear;
 }
 
 .like-icon.is-liked .main-body {
   fill: var(--color-sparks);
   transition: fill 0.3s linear;
-  transition-delay: 0.05s;  
+  transition-delay: 0.05s;
 }
 
 .like-icon.is-liked .contour {
@@ -76,7 +76,6 @@
   100% {
     transform: scale(1.25);
   }
-
 }
 
 .like-icon.is-liked .heart {
@@ -98,7 +97,7 @@
   }
 }
 /*анимация Like, Сохранить на память*/
-.button__animation::after{
+.button__animation::after {
   content: '';
   position: absolute;
   top: 0;
