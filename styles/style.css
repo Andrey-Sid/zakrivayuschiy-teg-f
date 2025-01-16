@@ -266,6 +266,11 @@ dialog::backdrop {
   block-size: 21px;
 }
 
+.dialog-window__icon {
+  inline-size: 39px;
+  block-size: 39px;
+}
+
 /* медиазапрос */
 
 @media (width <= 376px) {
@@ -291,11 +296,21 @@ dialog::backdrop {
   }
 
   .dialog-window {
-    grid-template-columns: min-content 15.8rem;
-    grid-template-rows: 1fr 1.7fr;
+    grid-template-columns: 1fr 13.8rem;
+    padding: 10px 0 10px 18px;
   }
 
+
   .window-button {
-    margin-block-start: 2.1rem;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    justify-items: center;
+    max-width: 257px;
+    min-height: 38px;
+  }
+
+  .dialog-window__icon {
+    margin-top: 13px;
   }
 }

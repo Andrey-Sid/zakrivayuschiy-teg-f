@@ -8,6 +8,7 @@
   --width-of-card: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
   --bg-color: #fff;
   --text-color: #000;
+  --border:2px solid #000;
   --color-sparks: #FF0000;
   --main-background-image: 
   repeating-linear-gradient(90deg, #d3d3d3 0 2px , transparent 2px 4px),
