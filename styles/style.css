@@ -319,12 +319,4 @@ dialog::backdrop {
     min-width: 257px;
   }
 
-  .window-button {
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
-    justify-content: center;
-    justify-items: center;
-    min-width: 257px;
-    min-height: 38px;
-  }
 }
