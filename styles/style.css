@@ -305,6 +305,7 @@ dialog::backdrop {
   .dialog-window {
     grid-template-columns: 1fr 12.3rem;
     padding: 0;
+    grid-template-rows: 1fr 0.75fr;
   }
 
 
