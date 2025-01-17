@@ -294,13 +294,17 @@ dialog::backdrop {
   }
 
   .image {
-    width: 28px;
-    height: 28px;
+    width: 35px;
+    height: 33px;
   }
+
+  dialog {
+    padding: 30px 42px;
+  } 
 
   .dialog-window {
     grid-template-columns: 1fr 12.3rem;
-    padding: 10px 0 10px 18px;
+    padding: 0;
   }
 
 
@@ -309,7 +313,7 @@ dialog::backdrop {
     grid-template-rows: repeat(2, auto);
     justify-content: center;
     justify-items: center;
-    max-width: 257px;
+    min-width: 257px;
     min-height: 38px;
   }
 }
